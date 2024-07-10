@@ -309,6 +309,10 @@ public interface BaseProviders extends ProviderRegistration {
         return getProvider(Medical.class, Medical::new);
     }
 
+    default Medication medication() {
+        return getProvider(Medication.class, Medication::new);
+    }
+
     default Military military() {
         return getProvider(Military.class, Military::new);
     }

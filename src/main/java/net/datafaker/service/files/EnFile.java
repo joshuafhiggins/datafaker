@@ -159,6 +159,7 @@ public class EnFile {
         "measurement.yml",
         "mbti.yml",
         "medical.yml",
+        "medication.yml",
         "michael_scott.yml",
         "military.yml",
         "minecraft.yml",
